@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['motorcycle', 'person with no helmet', 'person with proper helmet', 'person with wrong helmet use']
+
+roboflow:
+  workspace: helmet-detection-project-il1kk
+  project: helmet-detection-dxgnv
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/helmet-detection-project-il1kk/helmet-detection-dxgnv/dataset/7
